@@ -1,6 +1,7 @@
 ## 蓝牙定位算法
 ## 目标场景及功能
 <img src="https://github.com/yfq512/bluetooth_location/blob/main/imgs/1.png" width="1000" height="500" >
+
 * 场景：A、B、C……为蓝牙信号发射模块，其坐标提前进行标定，O_1、O_2、O_3……为接收端
 * 目的：计算出_1、O_2、O_3……相对于A、B、C……坐标系的坐标
 * 算法输入：以O_1为例，输入为O_1接收到的A、B、C……（数量需满足大于等于3）的RSSI信号强度
